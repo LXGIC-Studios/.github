@@ -1,5 +1,5 @@
 <h1 align="center">LXGIC Studios</h1>
-<p align="center"><em>A Studio of Ideas Coming to Life</em></p>
+<p align="center">Free AI dev tools. One command. No setup.</p>
 
 <p align="center">
   <a href="https://x.com/lxgicstudios">𝕏 Twitter</a> · 
@@ -9,60 +9,56 @@
 
 ---
 
-### What we build
+### What we do
 
-Open source AI dev tools. All free. All run with a single `npx` command. No installs, no config files, no signup walls.
+We build CLI tools that handle the tedious parts of development. Commit messages, READMEs, OG images, .env files. The stuff you do every day but shouldn't have to think about.
 
-We think developer tools should just work. You shouldn't need to read a 40 page doc to generate a README.
+Everything runs through `npx`. No global installs, no config files, no accounts. Pick a tool and run it.
 
 ---
 
-### Our Tools
+### The tools
 
 | Tool | What it does | Try it |
 |------|-------------|--------|
-| **[ai-readme-gen](https://github.com/lxgic-studios/ai-readme-gen)** | Generate a README from your codebase | `npx ai-readme-gen` |
-| **[ai-commit](https://github.com/lxgic-studios/ai-commit)** | AI git commit messages from staged changes | `npx ai-commit` |
-| **[ai-alt-text](https://github.com/lxgic-studios/ai-alt-text)** | Auto generate alt text for accessibility | `npx ai-alt-text` |
-| **[ai-env-gen](https://github.com/lxgic-studios/ai-env-gen)** | Scan your code and generate .env files | `npx ai-env-gen` |
-| **[ai-og-image](https://github.com/lxgic-studios/ai-og-image)** | Create Open Graph images with AI | `npx ai-og-image` |
-| **[ai-pdf-builder](https://github.com/lxgic-studios/ai-pdf-builder)** | AI powered PDF generation | `npx ai-pdf-builder` |
+| **[ai-readme-gen](https://github.com/LXGIC-Studios/ai-readme-gen)** | Reads your code, writes your README | `npx ai-readme-gen` |
+| **[ai-commit](https://github.com/LXGIC-Studios/ai-commit)** | Looks at your staged diff, writes the commit message | `npx ai-commit` |
+| **[ai-alt-text](https://github.com/LXGIC-Studios/ai-alt-text)** | Generates alt text for images in your project | `npx ai-alt-text` |
+| **[ai-env-gen](https://github.com/LXGIC-Studios/ai-env-gen)** | Scans your code and builds the .env file | `npx ai-env-gen` |
+| **[ai-og-image](https://github.com/LXGIC-Studios/ai-og-image)** | Creates Open Graph images from a prompt | `npx ai-og-image` |
+| **[ai-pdf-builder](https://github.com/LXGIC-Studios/ai-pdf-builder)** | Generates full PDFs with AI | `npx ai-pdf-builder` |
 
 ---
 
-### Quick Start
-
-Pick a tool. Run it. That's it.
+### Try one right now
 
 ```bash
-# Generate a README for your project
+# point it at your project and get a README back
 npx ai-readme-gen
 
-# Write commit messages that actually make sense
+# stage some files, then let it write the commit
 npx ai-commit
 
-# Add alt text to every image in your project
+# scan your images and get alt text for all of them
 npx ai-alt-text
 
-# Never manually create a .env file again
+# figure out what env vars you actually need
 npx ai-env-gen
 ```
 
-No global installs. No accounts. Just `npx` and go.
+That's it. No setup. No API keys on the free tiers.
 
 ---
 
-### Why we build in the open
+### Why open source
 
-Every tool we make is open source. We don't gate features behind paid tiers. If it's useful, it should be free.
+We don't think developer tools should cost money. If something saves you 10 minutes a day, it should just be free. So everything we make is MIT licensed and always will be.
 
-We write about what we're building, what we're learning, and where AI dev tools are headed on our [Substack](https://lxgicstudios.substack.com). No fluff, just real stuff from the build.
+We write about what we're shipping and learning on [Substack](https://lxgicstudios.substack.com). No fluff. Just what's actually happening in the build.
 
 ---
 
-### Stay in the loop
-
-We ship fast and talk about it publicly. Best way to keep up:
+### Keep up
 
 <p>
   <a href="https://x.com/lxgicstudios"><img src="https://img.shields.io/badge/𝕏-@lxgicstudios-000000?style=for-the-badge&logo=x&logoColor=white" alt="Follow on X" /></a>
